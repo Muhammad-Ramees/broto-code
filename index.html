@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODING SESSION - BROTOTYPE</title>
+    <link rel="apple-touch-icon-precomposed" href="./img/apple-touch-icon.png">
+    <link rel="icon" href="./img/apple-touch-icon.png">
+    <link rel="shortcut icon" href="./img/apple-touch-icon.png">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./img/logo-black.png" alt="Logo">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>CODING SESSION</h1>
+
+            <form id="submissionForm" style="display: none;">
+                <div class="form-group">
+                    <label for="Batch">Batch:</label>
+                    <select name="batch" id="hub-dropdown" required>
+                        <option value="" disabled selected>Select a Batch</option>
+                        <option value="BCB61">BCB61</option>
+                        <option value="BCB68">BCB68</option>
+                        <option value="BCB78">BCB78</option>
+                        <option value="BCB86">BCB86</option>
+                        <option value="BCB94">BCB94</option>
+                        <option value="BCB103">BCB103</option>
+                        <option value="BCB111">BCB111</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="invigilator">Invigilator:</label>
+                    <select name="invigilator" id="invigilator-dropdown" required>
+                        <option value="" disabled selected>Select an Invigilator</option>
+                        <option value="Ahmed Thashreef">Ahmed Thashreef</option>
+                        <option value="Fazil P P">Fazil P P</option>
+                        <option value="Tom Xavier">Tom Xavier</option>
+                        <option value="Nafi Iqbal">Nafi Iqbal</option>
+                        <option value="Amal Augustine">Amal Augustine</option>
+                        <option value="Saeed Rila B C">Saeed Rila B C</option>
+                        <option value="Sebastian M Thomas">Sebastian M Thomas</option>
+                        <option value="Harshendra Raj Pn">Harshendra Raj Pn</option>
+                        <option value="Abai Raj K">Abai Raj K</option>
+                        <option value="Shamnad Ks">Shamnad Ks</option>
+                        <option value="Athun Lal">Athun Lal</option>
+                        <option value="Christo Varghese">Christo Varghese</option>
+                        <option value="Muhammed Shahinsha P">Muhammed Shahinsha P</option>
+                    </select>
+                </div>
+                <div class="form-group">
+
+                    <label for="student">Student:</label>
+                    <select name="student" id="student-dropdown" required>
+                        <option value="" disabled selected>Select a Hub first</option>
+                    </select>
+                </div>
+                <div class="form-group">
+
+                    <button type="submit" id="submitBtn">Submit</button>
+                </div>
+            </form>
+            <div class="start-container">
+                <button id="startButton">Start</button>
+                <div id="counter"></div>
+            </div>
+
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+
+    <script>
+        function _0x5cc1() { var _0x3f41c0 = ['setItem', 'DOMContentLoaded', 'none', '18YgISVN', 'startTime', '1010814CjSyHD', '3432164oDfqeR', 'getElementById', '2229504DcIJmX', 'Start\x20Time', '\x20seconds', 'startButton', '3421595ZUpyGA', '1646607FslNwW', 'removeItem', 'getItem', 'true', '\x20minutes,\x20', 'floor', 'click', 'innerHTML', '4809984YAmLHA', 'getTime', 'block', '52BwLokE', 'Time\x20remaining:\x20', 'isTimerStarted', 'counter', 'addEventListener', 'style', 'submissionForm', 'toString', 'display', '4433UsxiGe']; _0x5cc1 = function () { return _0x3f41c0; }; return _0x5cc1(); } function _0x1eab(_0x531283, _0x1c1b59) { var _0x5cc10c = _0x5cc1(); return _0x1eab = function (_0x1eab0e, _0x454ee5) { _0x1eab0e = _0x1eab0e - 0x1dd; var _0x2add94 = _0x5cc10c[_0x1eab0e]; return _0x2add94; }, _0x1eab(_0x531283, _0x1c1b59); } var _0x3bee7a = _0x1eab; (function (_0x27016d, _0x105ac4) { var _0x566622 = _0x1eab, _0x39bea3 = _0x27016d(); while (!![]) { try { var _0x3e10d3 = parseInt(_0x566622(0x1e3)) / 0x1 * (-parseInt(_0x566622(0x1fc)) / 0x2) + -parseInt(_0x566622(0x1f1)) / 0x3 + parseInt(_0x566622(0x1ea)) / 0x4 + -parseInt(_0x566622(0x1f0)) / 0x5 + -parseInt(_0x566622(0x1ec)) / 0x6 + parseInt(_0x566622(0x1e9)) / 0x7 + parseInt(_0x566622(0x1f9)) / 0x8 * (parseInt(_0x566622(0x1e7)) / 0x9); if (_0x3e10d3 === _0x105ac4) break; else _0x39bea3['push'](_0x39bea3['shift']()); } catch (_0x35a58c) { _0x39bea3['push'](_0x39bea3['shift']()); } } }(_0x5cc1, 0x7662d), document[_0x3bee7a(0x1de)](_0x3bee7a(0x1e5), function () { var _0xa3a15d = _0x3bee7a, _0x8486c7, _0x4df5bf = localStorage[_0xa3a15d(0x1f3)](_0xa3a15d(0x1fe)); if (_0x4df5bf === _0xa3a15d(0x1f4)) { document[_0xa3a15d(0x1eb)](_0xa3a15d(0x1ef))['style'][_0xa3a15d(0x1e2)] = _0xa3a15d(0x1e6), document[_0xa3a15d(0x1eb)]('submissionForm')['style'][_0xa3a15d(0x1e2)] = 'block'; var _0x371ae2 = parseInt(localStorage[_0xa3a15d(0x1f3)](_0xa3a15d(0x1e8)), 0xa), _0x128a47 = new Date()[_0xa3a15d(0x1fa)](), _0x8665d1 = Math[_0xa3a15d(0x1f6)]((_0x128a47 - _0x371ae2) / 0x3e8), _0x2622b3 = 0x1f * 0x3c - _0x8665d1; _0x2622b3 > 0x0 ? _0x12b5e9(_0x2622b3) : _0x5396dd(); } else _0x5396dd(); function _0x5396dd() { var _0x194c49 = _0xa3a15d; document[_0x194c49(0x1eb)](_0x194c49(0x1ef))[_0x194c49(0x1df)][_0x194c49(0x1e2)] = _0x194c49(0x1fb), document[_0x194c49(0x1eb)]('submissionForm')['style'][_0x194c49(0x1e2)] = 'none'; } document['getElementById'](_0xa3a15d(0x1ef))[_0xa3a15d(0x1de)](_0xa3a15d(0x1f7), function () { var _0x226c96 = _0xa3a15d; document[_0x226c96(0x1eb)]('startButton')['disabled'] = !![], document['getElementById']('submissionForm')[_0x226c96(0x1df)][_0x226c96(0x1e2)] = _0x226c96(0x1fb), _0x12b5e9(0x1f * 0x3c), localStorage[_0x226c96(0x1e4)](_0x226c96(0x1e8), new Date()[_0x226c96(0x1fa)]()[_0x226c96(0x1e1)]()), localStorage[_0x226c96(0x1e4)]('isTimerStarted', _0x226c96(0x1f4)); }); function _0x12b5e9(_0x3c8ad2) { _0x8486c7 = setInterval(function () { var _0x327ccc = _0x1eab, _0x487c19 = document[_0x327ccc(0x1eb)](_0x327ccc(0x1dd)), _0x26c45e = Math['floor'](_0x3c8ad2 / 0x3c), _0x58f8ba = _0x3c8ad2 % 0x3c; _0x487c19[_0x327ccc(0x1f8)] = _0x327ccc(0x1fd) + _0x26c45e + _0x327ccc(0x1f5) + _0x58f8ba + _0x327ccc(0x1ee), _0x3c8ad2--; if (_0x3c8ad2 < 0x0) { clearInterval(_0x8486c7), _0x487c19['innerHTML'] = _0x327ccc(0x1ed), document[_0x327ccc(0x1eb)](_0x327ccc(0x1e0))['style'][_0x327ccc(0x1e2)] = _0x327ccc(0x1e6), localStorage['removeItem']('startTime'), localStorage[_0x327ccc(0x1f2)](_0x327ccc(0x1fe)); function _0xebe053() { var _0x3175d6 = _0x327ccc, _0x4d02c6 = [_0x3175d6(0x1e8), _0x3175d6(0x1fe)]; for (var _0x32003a = 0x0; _0x32003a < _0x4d02c6['length']; _0x32003a++) { var _0x5d5261 = _0x4d02c6[_0x32003a]; localStorage[_0x3175d6(0x1f2)](_0x5d5261); } } _0xebe053(), _0x5396dd(); } }, 0x3e8); } }));
+    </script>
+
+    <script>
+        const _0x145848 = _0x8327; (function (_0x1c0507, _0x1dffa1) { const _0x4d2870 = _0x8327, _0x34f2b8 = _0x1c0507(); while (!![]) { try { const _0x482eca = -parseInt(_0x4d2870(0x86)) / 0x1 * (-parseInt(_0x4d2870(0x89)) / 0x2) + -parseInt(_0x4d2870(0x8c)) / 0x3 + parseInt(_0x4d2870(0x98)) / 0x4 + parseInt(_0x4d2870(0x87)) / 0x5 + parseInt(_0x4d2870(0x9c)) / 0x6 + -parseInt(_0x4d2870(0x99)) / 0x7 * (parseInt(_0x4d2870(0x8a)) / 0x8) + parseInt(_0x4d2870(0x9b)) / 0x9; if (_0x482eca === _0x1dffa1) break; else _0x34f2b8['push'](_0x34f2b8['shift']()); } catch (_0x1b46ab) { _0x34f2b8['push'](_0x34f2b8['shift']()); } } }(_0x5949, 0x73d00)); let form = document[_0x145848(0x96)](_0x145848(0x84)); function _0x8327(_0x3ec702, _0xbdc51d) { const _0x594952 = _0x5949(); return _0x8327 = function (_0x8327d4, _0x2b40a5) { _0x8327d4 = _0x8327d4 - 0x84; let _0x285932 = _0x594952[_0x8327d4]; return _0x285932; }, _0x8327(_0x3ec702, _0xbdc51d); } form[_0x145848(0x8b)](_0x145848(0x8e), _0x409dff => { const _0x565907 = _0x145848; _0x409dff[_0x565907(0x88)](), document[_0x565907(0x96)](_0x565907(0x93))[_0x565907(0x8d)] = _0x565907(0x95); let _0x5b9209 = new FormData(form); fetch(_0x565907(0x8f), { 'method': 'POST', 'body': _0x5b9209 })[_0x565907(0x85)](_0x464276 => _0x464276[_0x565907(0x94)]())[_0x565907(0x85)](_0x40f0f3 => { const _0x41abc7 = _0x565907; _0x40f0f3 === _0x41abc7(0x90) ? (document[_0x41abc7(0x96)](_0x41abc7(0x93))['innerHTML'] = _0x41abc7(0x9a), setTimeout(function () { const _0x16f12f = _0x41abc7; window[_0x16f12f(0x92)]['reload'](); }, 0x7d0)) : document[_0x41abc7(0x96)](_0x41abc7(0x93))[_0x41abc7(0x91)] = _0x41abc7(0x97); }); }); function _0x5949() { const _0x6e0b74 = ['452245IHVTcO', 'preventDefault', '78AjzRJy', '3808016FNLLZo', 'addEventListener', '2172372AbtrDO', 'innerHTML', 'submit', 'https://script.google.com/macros/s/AKfycbzkpPr2xKucH0gGJTV02h5Fvnrn24zvbzddR4C_PnvcwVZahBs2vzK2mEaaFe9aXW8z5A/exec', 'Success', 'value', 'location', '#submitBtn', 'text', 'Submiting..', 'querySelector', 'Can\x27t\x20submit', '1371428qOjMIS', '7ZnzLNl', 'Submitted', '1713096vyWxAi', '5608914hooZUO', 'form', 'then', '2975iZMJwc']; _0x5949 = function () { return _0x6e0b74; }; return _0x5949(); }
+    </script>
+</body>
+
+</html>
